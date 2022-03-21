@@ -1,0 +1,570 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&family=Raleway:wght@300;400;700&display=swap");
+
+:root{
+  --button-color: #3757D5;
+  --text-color: #6d7b93;
+
+}
+
+/* */
+body {
+  margin: 0;
+  background-color: white;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  color: var(--text-color);
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+i {
+  padding: 5px;
+  font-size: 20px;
+  margin-right: 10px;
+  background-color: #99a4b933;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+  color: #164DBC;
+}
+
+.flex_container {
+  display: flex;
+  flex-wrap: wrap;
+
+  /*align-items: center;*/
+
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.flex-container div{
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column wrap;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+button{
+  font-size: 18px;
+  color: white;
+  background-color: #164DBC;
+  padding: 15px 30px;
+  box-shadow: 1px 17px 20px -8px rgba(23,54,140,0.33);
+  font-family: 'Fredoka', sans-serif;
+  border: none;
+  font-weight: 400;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+button:hover{
+  background-color: #1f3e72;
+}
+
+/* ...................Nav section...........................  */
+
+.topnav {
+  background: white;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0px 100px;
+  height: 130px;
+}
+
+.nav-left {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-right {
+  display: flex;
+  width: 62%;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+
+.nav-items {
+  color: var(--text-color);
+  text-align: center;
+  padding: 50px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Fredoka", sans-serif;
+  display: normal;
+  font-weight: 500;
+}
+
+.nav-items-tittle {
+  color: #3757D5;
+  text-align: center;
+  padding: 40px 16px;
+  text-decoration: none;
+  font-size: 35px;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 500;
+}
+
+
+
+/* ................Main section..................*/
+
+#presentation_container{
+  position: relative;
+  background-color: linear-gradient(to right, transparent 50%, #0b95e5 50% , #2b6edd );
+
+}
+
+
+.div-text{
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column wrap;
+  font-size: 30px;
+}
+/*
+padding-top: 200px;
+  align-items: flex-start;
+  color: var(--text-color);
+  
+*/
+.subtitle{
+  margin: 0px 120px;
+  padding-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 84px;
+  color: #1F3E72;
+  text-decoration: none;
+}
+
+.presentation__text{
+  margin: 20px 120px;
+}
+
+.p-icons{
+  margin: 20px 120px;
+}
+
+.p-icons i{
+  color: rgb(253, 230, 21);
+  background-color: rgb(245, 242, 220);
+  border-radius: 5px;
+  padding: 10px 20x;
+}
+
+.p-icons span:last-child{
+  margin-left: 20px;
+}
+
+.schedule-section{
+  margin: 120px 0px 0px 120px;
+  position: relative;
+  z-index: 2;
+}
+
+.schedule-details{
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.898);
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 150px;
+  width: 1000px;
+  border-radius: 8px;
+  box-shadow: 1px 21px 29px -1px rgba(92, 176, 185, 0.23);
+}
+
+.schedule-details > details > p{
+  margin: 0;
+}
+
+.schedule-select{
+  width: 80%;
+  border: 1px solid transparent;
+  background-color: transparent;
+  margin-left: 40px;
+  border-radius: 10px;
+  resize: vertical;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: none;
+}
+
+.font-small-subtitle-bold{
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  color: #1f3e72;
+}
+
+.font-small-gray{
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+}
+
+.image_section{
+  padding-top: 205px;
+  width: 50%;
+  display: flex; 
+  z-index: 1;
+  position: relative;
+  background: linear-gradient(to right, #0b95e5 50% , #2b6edd );
+}
+
+.image_section img{
+  padding-left: 185px;
+  width: 70%;
+}
+
+.triangle-top {
+  margin-top: 120px;
+  border-top: 75px solid #f4f6fb;
+  border-left: 78px solid transparent;
+  border-right: 78px solid transparent;
+  
+}
+
+.triangle-right {
+  position: absolute;
+  bottom: 30%;
+  right: 50%;
+  border-top: 118px solid transparent;
+  border-right: 113px solid #f4f6fb;
+  border-bottom: 113px solid transparent;
+}
+
+
+/*--------------------- Section logo ---------------*/
+
+.flex_container_logo{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  margin: 0px 120px;
+}
+
+.s-logo{
+  width: 250px;
+}
+
+/* ---------------- Why Section -------------------*/
+
+.why_container{
+  padding-left: 120px;
+}
+
+.why_subtitle{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 55px;
+  text-decoration: none;
+  color: #1F3E72;
+  font-style: bold;
+}
+
+.why_paragraph{
+  margin-top: 35 px;
+  position: relative;
+  color: #6d7b93;
+  line-height: 1.8;
+  font-size: 26px;
+}
+
+.flex-why-container{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  /* height: 200px; */
+  margin: 40px 120px;
+}
+
+.why{
+  width: 270px;
+  height: 350px;
+  border: 1px solid var(--light-gray);
+  padding: 45px 30px 30px 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.why_should{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.why_paragraph{
+  margin-top: 35px;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.subtitle-why{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-decoration: none;
+  color: #1F3E72;
+  font-style: bold;
+}
+
+
+/*--------------- Preparation section ---------------*/
+
+.preparations{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.div-image{
+  padding-top: 50px;
+  width: 50%;
+  display: flex; 
+  z-index: 1;
+  position: relative;
+  background: linear-gradient(to right,  #0b95e5 50% , #2b6edd );
+}
+
+.woman{
+  padding-right: 115px;
+  width: 100%;
+  height: 100%;
+}
+
+.subtitle-prep{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  text-decoration: none;
+  color: #1F3E72;
+  font-style: bold;
+}
+
+.preparation__texts{
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column wrap;
+
+}
+
+.preparation__text{
+  margin: 20px 100px;
+  color: #6d7b93;
+  line-height: 1.8;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.shrinked-card{
+  cursor: pointer;
+}
+
+.shrinked-card-right{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+}
+
+.shrinked-card-flex-div{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-right: 100px;
+}
+
+.preparation-cards{
+  display: flex; 
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 80%;
+  padding: 0 65px;
+}
+
+.shrinked-card-info{
+  padding-left: 40px;
+  margin: 0;
+}
+
+
+/* ----------------- Emergency contact section ----------------*/ 
+
+.margin-section{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.div-content{
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column wrap;
+}
+.section-intro-contact{
+  padding-left: 120px;
+  margin-bottom: 90px;
+}
+
+.description-text{
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column wrap;
+
+}
+
+.subtitle-contact{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  text-decoration: none;
+  color: #1F3E72;
+  font-style: bold;
+
+}
+
+.container_contact{
+  padding-left: 120px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.contact-card{
+  padding: 45px 45px;
+  border: 1px solid var(--light-gray);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 180px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-info{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact-info > div{
+  margin-left: 10px;
+}
+
+
+.doct{
+  padding-left: 60px;
+  width: 90%;
+  height: 90%;
+}
+
+.contact-button{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.big-icon{
+  padding: 15px;
+  font-size: 30px;
+  background-color: #99a4b933;
+  border-radius: 10%;
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -ms-border-radius: 15%;
+  -o-border-radius: 15%;
+  color: #164DBC;
+}
+
+
+/*--------------------------- Footer section -----------------------*/
+
+.footer-content{
+  background-color: #f2f4f8;
+  padding: 30px 120px;
+  height: 320px;
+
+}
+
+.footer-nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-top: 60px;
+}
+
+.footer-append{
+  display: flex;
+  flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav a:hover {
+  color: #164DCB;
+}
+
+.footer-nav-left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-subtitle{
+  margin: 0;
+}
+
+.footer-nav-right{
+  width: 50%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
